@@ -1,3 +1,16 @@
-h1 {
-    color: red;
+.mainContent h1{
+	background: #ffffff;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #cccccc;
+}
+
+#myImage{
+	float: left;
+	size: 200px;
+	margin-top: 10px;
+  	margin-right: 25px;
+}
+
+.mainContent p{
+	margin-top: 0;
 }
