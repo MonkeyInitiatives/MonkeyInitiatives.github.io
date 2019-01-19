@@ -1,172 +1,57 @@
 body{
-	background: url("../images/connectwork.png");
-	margin-bottom: 60px;
+    background-color: #2B2B2B;
 }
-html {
-  min-height: 100%;
-  position: relative;
-}
-.my-header{
-	background: #ffffff;
-	width: 100%;
-	margin: auto;
-}
-.my-navbar-style{
-	color: #ffffff;
-	background: #ffffff;
-	border-bottom: 2px solid #cccccc;
-	padding: 0px;
-}
-.my-navbar-name{
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 30px;
-	font-weight: bold;
-	color: #ffffff;
-	background: #4aaaa5;
-	padding: 20px;
-}
+#my-container{
+    padding-top: 20px;
 
-.my-navbar-link{
-	font-family: Georgia, Times, "Times New Roman", serif;
-	color: #999;
-	border-right: 2px solid #efefef;
 }
-.my-navbar-link:hover{
-	background: #4aaaa5;
-	color: #ffffff;
+.navbar {
+    min-height: 60px;
+  }
+#my-nav-bar{
+    background-color: #680C14 !important;
 }
-a:link, a:visited{
-	color: #777777;
-	text-decoration: none;
+.nav-link, .navbar-brand{
+    color: #FD5F56 !important;
 }
-.my-navbar-name:visited{
-	color: #ffffff;
+#about-me{
+    padding-top: 60px;
+    background-color: #B22222;
+    color: #2B2B2B !important;
 }
-.wrapper{
-	position: relative;
-	background: #ffffff;
-	padding: 20px;
-	margin-top: 40px;
+#services{
+    padding-top: 60px;
+    background-color: #B22222;
+    color: #2B2B2B !important;
 }
-h1{
-	background: #ffffff;
-	padding-bottom: 20px;
-	border-bottom: 2px solid #cccccc;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-weight: 700;
-	color: #4aaaa5;
+.service-icon{
+    max-width: 128px;
+    max-height: 128px;
 }
-.my-about-text{
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 18px;
-	line-height: 34px;
-	color: #777777;
+.contact-icon{
+    max-width: 96px;
+    max-height: 96px;
+    padding: 10px;
 }
-#my-about-image{
-	margin-top: 10px;
-  	margin-right: 25px;
+#portfolio{
+    /* padding-top: 60px; */
 }
-#my-form-button{
-	color: #ffffff;
-	background: #4aaaa5;
-	padding: 10px 20px 10px 20px;
-    font-size: 18px;
-    border: 0 none;
+#contact{
+    padding-top: 60px;
+    background-color: #B22222;
+    color: #2B2B2B !important;
 }
-.my-portfolio-container{
-	position: relative;
-	float: left;
-	width: 275px;
-	margin: 20px;
-	overflow: auto;
+.carousel-caption{
+    background-color: #B22222;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #2B2B2B;
+    margin-left: auto;
+    margin-right: auto;   
 }
-.my-portfolio-container img{
-	height: 200px;
-	width: 300px;
-}
-.my-portfolio-container p {
-	position: absolute;
-	bottom: 20px;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-bottom: 0;
-	line-height: 30px;
-	color: #ffffff;
-	text-align: center;
-	background: #4aaaa5;
-	border-bottom: 0;
-	font-family: Georgia, Times, "Times New Roman", serif;
-}
-
-.my-footer-style{
-	color: #cccccc;
-	text-align: center;
-	height: 60px;
-	font-size: 12px;
-	background: #666666;
-	border-top: 8px solid #4aaaa5;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
-	
-}
-
-@media only screen and (max-width: 768px) {
-	
-	.my-container{
-		width: 100%;
-		border: hidden;
-		padding: 0px;
-		margin: 10px;
-		margin: auto;
-		
-	}
-}
-
-@media only screen and (max-width: 640px) {
-	
-	.my-container{
-		width: 100%;
-		border: hidden;
-		padding: 0px;
-		margin: 10px;
-		margin: auto;
-		
-	}
-	
-	#my-about-image{
-		width: 100%
-	}
-	#my-navbar{
-		text-align: center;
-		justify-content: space-around; 
-	}
-	.my-navbar-name{
-		position: relative;
-		margin: auto;
-		left: 0;
-		right: 0;
-	}	
-	.small-background{
-		background: #4aaaa5;
-
-	}
-	.my-portfolio-container {
-		position: relative;
-		float: left;
-		width: 95%;
-		margin: 20px;
-		overflow: auto;
-	}
-	.my-portfolio-container img{
-		width: 95%;
-		height: 95%;
-	}
-	.my-portfolio-container p {
-		width: 95%;
-	}
-
+.carousel {
+    background: none repeat scroll 0 0 #B22222;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1%;
 }
