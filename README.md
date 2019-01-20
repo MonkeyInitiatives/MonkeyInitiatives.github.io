@@ -1,2 +1,2 @@
-# MonkeyInitiatives.github.io
-Bio Page
+# Portfolio
+Full-Stack Web Developer with a diverse background in mathematics, computer science, and African American studies. Works well within teams at translating feedback into achievable goals with flair and attention to detail. Became interested in web developemnt after a long career as a technology liason for a small company. Loves movies and video games.
