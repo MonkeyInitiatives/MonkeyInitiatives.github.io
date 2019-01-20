@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     
-    <link rel="stylesheet" type="text/css" href="./new.css"">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"">
 </head>
 <body id="top">
 
@@ -34,28 +34,16 @@
         </div>
     </nav>
 
-    <div class="container col" id="my-container">
+    <div class="container" id="my-container">
         <div class="jumbotron jumbotron-fluid" id="about-me">
             <div class="container text-center">
                 <h3 class="display-4">Full Stack Web Developer</h3>
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repudiandae sunt maxime qui quaerat veniam quo vero asperiores magni, aut tempora? Asperiores est itaque modi excepturi alias esse facere in.</p>
-            </div>
-        </div>
-
-        <div class="jumbotron jumbotron-fluid" id="services">
-            <div class="container text-center col">
-                    <h3 class="display-4">Web Technologies</h3>
-                    <p class="lead"></p>    
-                    <img src="./assets/images/icons/html.png" class= "service-icon" alt="html.png">
-                    <img src="./assets/images/icons/css.png" class= "service-icon" alt="html.png">
-                    <img src="./assets/images/icons/javascript.png" class= "service-icon" alt="html.png">
-                    <img src="./assets/images/icons/jquery.png" class= "service-icon" alt="html.png">
-                    <img src="./assets/images/icons/nodejs.png" class= "service-icon" alt="html.png">
+                <p class="lead">Full-Stack Web Developer with a diverse background in mathematics, computer science, and African American studies. Works well within teams at translating feedback into achievable goals with flair and attention to detail. Became interested in web developemnt after a long career as a technology liason for a small company. Loves movies and video games.</p>
             </div>
         </div>
 
         <div id="portfolio">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -66,58 +54,83 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active" >
-                        <a target="_blank" href="https://bgee269.github.io/Harry-Potter/">
                             <img src="./assets/images/portfolio/HogsmeadeHangout.png" class="d-block w-100 h-100" alt="HogsmeadeHangout.png">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption">
+                                <a target="_blank" href="https://bgee269.github.io/Harry-Potter/">
+                                    <img src="./assets/images/icons/website.png" class= "contact-icon float-left" alt="html.png">
+                                </a>
+                                <a target="_blank" href="https://github.com/bgee269/Harry-Potter">
+                                    <img src="./assets/images/icons/github.png" class= "contact-icon float-right" alt="github.png">
+                                </a>
                                 <h3>Hogsmeade Hangout</h3>
                                 <p>A fun and fanciful Harry Potter fansite!</p>
                             </div>
-                        </a>
+                       
                     </div>
                     <div class="carousel-item">
-                        <a target="_blank" href="https://monkeyinitiatives.github.io/unit-4-game/">
                             <img src="./assets/images/portfolio/MassEffectRPG.png" class="d-block w-100 h-100" alt="MassEffectRPG.png">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption">
+                                <a target="_blank" href="https://monkeyinitiatives.github.io/unit-4-game/">
+                                    <img src="./assets/images/icons/website.png" class= "contact-icon float-left" alt="html.png">
+                                </a>
+                                <a target="_blank" href="https://github.com/MonkeyInitiatives/unit-4-game/">
+                                    <img src="./assets/images/icons/github.png" class= "contact-icon float-right" alt="github.png">
+                                </a>
                                 <h3>Mass Effect RPG</h3>
                                 <p>Play a roleplaying game in the Mass Effect universe!</p>
                             </div>
-                        </a>
                     </div>
                     <div class="carousel-item">
-                        <a target="_blank" href="https://monkeyinitiatives.github.io/RPS-Multiplayer/">
                             <img src="./assets/images/portfolio/BladeRunnerRPS.png" class="d-block w-100 h-100" alt="BladeRunnerRPS.png">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3>Blade Runner 2049 RPG</h3>
+                            <div class="carousel-caption">
+                                <a target="_blank" href="https://monkeyinitiatives.github.io/RPS-Multiplayer/">
+                                    <img src="./assets/images/icons/website.png" class= "contact-icon float-left" alt="html.png">
+                                </a>
+                                <a target="_blank" href="https://github.com/MonkeyInitiatives/RPS-Multiplayer/">
+                                    <img src="./assets/images/icons/github.png" class= "contact-icon float-right" alt="github.png">
+                                </a>
+                                <h3>Blade Runner 2049 RPS</h3>
                                 <p>A unique take on the classic Rock Paper Scissors game!</p>
                             </div>
-                        </a>
                     </div>
                     <div class="carousel-item">
-                        <a target="_blank" href="https://monkeyinitiatives.github.io/TriviaGame/">
                             <img src="./assets/images/portfolio/DisneyTrivia.png" class="d-block w-100 h-100" alt="DisneyTrivia.png">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption">
+                                <a target="_blank" href="https://monkeyinitiatives.github.io/TriviaGame/">
+                                    <img src="./assets/images/icons/website.png" class= "contact-icon float-left" alt="html.png">
+                                </a>
+                                <a target="_blank" href="https://github.com/MonkeyInitiatives/TriviaGame/">
+                                    <img src="./assets/images/icons/github.png" class= "contact-icon float-right" alt="github.png">
+                                </a>
                                 <h3>Disney Trivia Game</h3>
                                 <p>Take a 10 question timed quiz on various Disney trivia!</p>
                             </div>
-                        </a>
                     </div>
                     <div class="carousel-item">
-                        <a target="_blank" href="https://monkeyinitiatives.github.io/GifTastic/">
                             <img src="./assets/images/portfolio/PokemonGiftastic.png" class="d-block w-100 h-100" alt="PokemonGiftastic.png">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption">
+                                <a target="_blank" href="https://monkeyinitiatives.github.io/GifTastic/">
+                                    <img src="./assets/images/icons/website.png" class= "contact-icon float-left" alt="html.png">
+                                </a>
+                                <a target="_blank" href="https://github.com/MonkeyInitiatives/GifTastic/">
+                                    <img src="./assets/images/icons/github.png" class= "contact-icon float-right" alt="github.png">
+                                </a>
                                 <h3>Pokemon Giftastic</h3>
-                                <p>Load up some gifs from various pokemon, and see their stats!</p>
+                                <p>Load up some Pokemon gifs, and see their stats!</p>
                             </div>
-                        </a>
                     </div>
                     <div class="carousel-item">
-                        <a target="_blank" href="https://monkeyinitiatives.github.io/Word-Guess-Game/">
                             <img src="./assets/images/portfolio/PokemonHangman.png" class="d-block w-100 h-100" alt="PokemonHangman.png">
-                            <div class="carousel-caption d-none d-md-block">
+                            <div class="carousel-caption">
+                                <a target="_blank" href="https://monkeyinitiatives.github.io/Word-Guess-Game/">
+                                    <img src="./assets/images/icons/website.png" class= "contact-icon float-left" alt="html.png">
+                                </a>
+                                <a target="_blank" href="https://github.com/MonkeyInitiatives/Word-Guess-Game/">
+                                    <img src="./assets/images/icons/github.png" class= "contact-icon float-right" alt="github.png">
+                                </a>
                                 <h3>Pokemon Hangman</h3>
                                 <p>Guess the pokemon by entering letters!</p>
                             </div>
-                        </a>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -130,6 +143,22 @@
                 </a>
             </div>    
         </div>  
+
+        <div class="jumbotron jumbotron-fluid" id="services">
+            <div class="container text-center col">
+                    <h3 class="display-4">Web Technologies and Services</h3>
+                    <p class="lead"></p>    
+                    <img src="./assets/images/icons/html.png" class= "service-icon" alt="html.png">
+                    <img src="./assets/images/icons/css.png" class= "service-icon" alt="css.png">
+                    <img src="./assets/images/icons/javascript.png" class= "service-icon" alt="javascript.png">
+                    <img src="./assets/images/icons/jquery.png" class= "service-icon" alt="jquery.png">
+                    <img src="./assets/images/icons/nodejs.png" class= "service-icon" alt="nodejs.png">
+                    <img src="./assets/images/icons/objectivec.png" class= "service-icon" alt="objectivec.png">
+                    <img src="./assets/images/icons/java.png" class= "service-icon" alt="java.png">
+
+            </div>
+        </div>
+
         <div class="jumbotron jumbotron-fluid" id="contact">
             <div class="container text-center">
                 <h3 class="display-4">Contact</h3>

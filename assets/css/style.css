@@ -3,11 +3,10 @@ body{
 }
 #my-container{
     padding-top: 20px;
-
 }
 .navbar {
     min-height: 60px;
-  }
+}
 #my-nav-bar{
     background-color: #680C14 !important;
 }
@@ -24,6 +23,12 @@ body{
     background-color: #B22222;
     color: #2B2B2B !important;
 }
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
 .service-icon{
     max-width: 128px;
     max-height: 128px;
@@ -37,7 +42,8 @@ body{
     /* padding-top: 60px; */
 }
 #contact{
-    padding-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #B22222;
     color: #2B2B2B !important;
 }
@@ -54,4 +60,28 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 1%;
+}
+@media screen and (max-width: 992px) {
+    .contact-icon{
+        max-width: 58px;
+        max-height: 58px;
+        padding: 10px;
+    }
+    .service-icon{
+        max-width: 96px;
+        max-height: 96px;
+    }
+    .carousel-caption{
+        border-width: 2px;
+        border-style: solid;
+        border-color: #2B2B2B;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+    .carousel-caption p{
+        font-size: 0px;
+    }
+    .carousel-caption h3{
+        font-size: 12px;
+    }
 }
